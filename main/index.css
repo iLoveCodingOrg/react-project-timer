@@ -1,0 +1,56 @@
+html, body {
+    height: 100%;
+    margin: 0px;
+}
+#app {
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+.wrapper {
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+}
+*{
+    box-sizing: border-box;
+}
+h2{
+    margin: 0px;
+    margin-bottom: 10px;
+}
+body{
+    font-family: 'Patua One', cursive;
+    background-color: #646fc1;
+}
+.container{
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+    border: 2px solid #6570c1;
+    padding: 20px;
+    background-color: #fff;
+}
+.digit{
+    display: inline-block;
+    text-align: center;
+}
+input[type="number"], input[type="text"]{
+    font-family: 'Patua One', cursive;
+    border-radius: 10px;
+    margin: 5px;
+    font-size: 30px;
+    text-align: center;
+    width: 70px;
+    border: 2px solid #6570c1;
+}
+button{
+    border-radius: 10px;
+    padding: 5px 15px;
+    border: 2px solid #6570c1;
+    color: #fff;
+    background-color: #6570c1;
+    margin-top: 10px;
+    font-size: 14px;
+}
